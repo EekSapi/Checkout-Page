@@ -1,0 +1,415 @@
+@media screen and (max-width:1900px) {
+    body{
+        margin: 64px 350px 0 350px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    body{
+        margin: 64px 300px 0 300px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    body{
+        margin: 64px 240px 0 240px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        margin: 64px 160px 0 160px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        margin: 64px 50px 0 50px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        margin: 30px 0 0 0;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+
+    .title{
+        margin: 0 0 650px 20px;
+        text-align: left;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4E5150;
+    }
+
+    .checkout{
+        position:absolute ;
+        text-align: left;
+        top: 80px;
+        left: 25px;
+        width: 465px;
+        height: 595px;
+        background: #F2F2F2;
+        border-radius: 12px;
+        margin-bottom: 30px;
+    }
+
+    .item{
+        margin: 34px 90px 0 70px;
+    }
+
+    .output{
+        position: absolute;
+        bottom: 30px;
+        margin: 0 100px 0 40px;
+    }
+
+    .shipping{
+        margin-bottom: 30px;
+        width: 380px;
+    }
+
+    .plus{
+        text-align: right;
+        right: 110px;
+    }
+
+    .contact{
+        width: 380px;
+        margin: 0 10px 60px 10px;
+        text-align: left;
+    }
+
+    .address{
+        margin: 0 0 60px 20px;
+        text-align: left;
+    }
+    .watermark{
+        position: relative;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        margin:0 0 30px 0;
+        color: #A9A9A9;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        margin: 30px 0 0 0;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+
+    .title{
+        margin: 0 0 650px 20px;
+        text-align: left;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #4E5150;
+    }
+
+    .checkout{
+        position:absolute ;
+        text-align: left;
+        top: 80px;
+        left: 25px;
+        width: 350px;
+        height: 595px;
+        background: #F2F2F2;
+        border-radius: 12px;
+        margin-bottom: 30px;
+    }
+
+    .item{
+        margin: 30px 40px 0 30px;
+    }
+
+    .tag{
+        margin-left: 160px;
+    }
+    
+    .image{
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        border-radius: 15px;
+    }
+    
+    .price{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #F2994A;
+        margin-bottom: 20px;
+    }
+    
+    .discount{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-decoration-line: line-through;
+        color: #4E5150;
+        margin-left: 60px;
+    }
+    
+    .buy{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #4E5150;
+        margin-bottom: 7px;
+    }
+
+    .output{
+        position: absolute;
+        bottom: 30px;
+        margin: 0 100px 0 30px;
+    }
+
+    .value-box{
+        width: 120px;
+        height: 60px;  
+        background-color: #f2f2f2;
+        border: 1px solid #828282;
+        border-radius: 12px;
+    }
+    
+    .box{
+        position: absolute;
+        margin: 19px 0 15px 18px;
+    }
+    
+    .min{
+        text-align: left;
+    }
+    
+    .quantity{
+        background-color: #F2F2F2;
+        border-color: #f2f2f2;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+
+    }
+
+    input.quantity{
+        margin:  6px 0 0 0;
+        width: 114px;
+    }
+
+    button{
+        width: 20px;
+        height: 20px;
+        border-style: none;
+        background-color: #E0E0E0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button.box.plus{
+        position: absolute;
+        left: 0;
+        margin: 19px 0 0 275px;
+    }
+    
+    button:hover{
+        width: 20px;
+        height: 20px;
+        border-style: none;
+        background-color: #e0e0e0a9;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .minus{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .pluss{
+        position: absolute;
+        left: 0px;
+        top: 0; 
+    }
+
+    .shipping{
+        margin-bottom: 30px;
+        width: 280px;
+    }
+
+    .plus{
+        text-align: right;
+        right: 110px;
+    }
+
+    .contact{
+        margin: 0 0 60px 10px;
+        text-align: left;
+    }
+
+    .address{
+        margin: 0 0 60px 10px;
+        text-align: left;
+    }
+
+    .contact .title , .address .title{
+        position: relative;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #333333;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    
+    .input-box{
+        margin-bottom: 20px;
+        margin-right: 60px;
+    }
+    
+    .info{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #4F4F4F;
+        margin-bottom: 7px;
+    }
+    
+    span.info{
+        margin-left: 147px;
+    }
+    
+    input{
+        width: 340px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 1px solid #828282;
+        border-radius: 12px;
+        cursor:default;
+    }
+    
+    .fill{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #828282;
+        padding-left: 35px ;
+    }
+    
+        .email{
+            background: url(icon/email.svg) no-repeat 3px 8px;
+        }
+    
+        .phone{
+            background: url(icon/phone.svg) no-repeat 3px 6px;
+        }
+    
+        .name{
+            background: url(icon/name.svg) no-repeat 3px 7px;
+        }
+    
+        .home{
+            background: url(icon/address.svg) no-repeat 4px 7px;
+        }
+    
+        .city{
+            background: url(icon/city.svg) no-repeat 3px 7px;
+        }
+    
+        .country{
+            background: url(icon/country.svg)no-repeat 3px 7px;
+        }
+    
+        .postal{
+            background:url(icon/postal.svg)no-repeat 3px 6px;
+        }
+    
+    input.partial{
+        width: 134px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 1px solid #828282;
+        border-radius: 12px; 
+    }
+    
+    #postal{
+        margin-left: 25px;
+    }
+
+    #partial{
+        width: 380px;
+    }
+
+    .submit{
+        width: 166px;
+        height: 54px;
+        background: #F2994A;
+        border-color: #FFFFFF;
+        border-radius: 12px;
+        margin: 30px 0 0 210px;
+    }
+    
+    input[type="submit"]{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+    .submit:hover{
+        cursor: pointer;
+        width: 166px;
+        height: 54px;
+        background: #ff6600;
+        border-color: #FFFFFF;
+        border-radius: 12px;
+        margin: 30px 0 0 210px;
+    }
+
+    .watermark{
+        position: relative;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        margin:0 0 30px 0;
+        color: #A9A9A9;
+    }
+}
